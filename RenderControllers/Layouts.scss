@@ -1,0 +1,31 @@
+.Layouts--wrap {
+  width: 100%;
+  height: 100%;
+}
+.Layouts--header {
+	will-change: transform;
+	position: absolute;
+	width: 100%;
+	height: 12vh;
+	z-index: 8;
+}
+.Layouts--content {
+	will-change: transform;
+	position: absolute;
+	width: 100%;
+	height: 88vh;
+	z-index: 1;
+}
+.Layouts--fullScreen {
+	will-change: transform;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.Layouts--leftPannel {
+	will-change: transform;
+	width: 100%;
+	height: 100%;
+}
